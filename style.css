@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    height: auto;
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_player{
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.main_player .player{
+    width: 50%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main_player .player button{
+    width: 200px;
+    height: 40px;
+
+}
+
+.main_turn,
+.main_total{
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.main_turn .turn,
+.main_total .total{
+    width: 50%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main_turn .turn .turnValue,
+.main_total .total .totalValue{
+    width: 50%;
+    height: 70px;
+    border: 5px solid orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red{
+    background-color: red;
+    width: 30%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue{
+    background-color: blue;
+    width: 30%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.main_box .box{
+    border: 2px solid green;
+    width: 18%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_box .box .redBox{
+    width: 25%;
+    height: 70px;
+    background-color: red;
+}
