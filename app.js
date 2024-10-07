@@ -31,7 +31,8 @@ function playerOneButton() {
 
     if (playerOne >= 50) {
         playerOne = 0; // Count reset
-        alert("Player one Reached 50!");
+        playerTwo = 0; // Count reset
+        alert("Player one Reached 50! and Won!!");
     };
 
     //Moveing PlayerOne Marker according to playerOneCount
@@ -53,8 +54,9 @@ function playerTwoButton() {
     playerTwoCount.innerHTML = `<h3>${playerTwo}</h3>`;
 
     if (playerTwo >= 50) {
+        playerOne = 0; // Count reset
         playerTwo = 0; // Count reset
-        alert("Player one Reached 50!");
+        alert("Player Two Reached 50! and Won!!");
     };
 
     //Moveing PlayerOne Marker according to playerOneCount
